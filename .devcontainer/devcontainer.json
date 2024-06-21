@@ -1,0 +1,17 @@
+{
+    "name": "Rust",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot",
+                "github.copilot-chat",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    },
+    "remoteUser": "vscode",
+    "features": {
+        "ghcr.io/devcontainers/features/rust:1": {}
+    }
+}
